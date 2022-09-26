@@ -1,8 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Аюб Эльмурзаев](https://up.htmlacademy.ru/htmlcss/35/user/2213103).
-* Наставник: `Антон Попов`.
-* Ссылка на профиль: https://htmlacademy.ru/profile/joker
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker)
 
 ---
 
