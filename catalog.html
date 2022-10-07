@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>>
   <body>
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo-link" href="index.html">
-          <img class="logo" src="#" alt="Логотип City of Sedona">
+          <img class="logo" src="images\logo-herotext\logo-sedona.png" alt="Логотип City of Sedona">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -39,6 +40,7 @@
     </header>
     <main class="main-inner">
       <header class="inner-header">
+        <img class="inner-background" src="images\background-pictures\catalog-main.jpg" alt="Sedona-filter" width="1200" height="412" >
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -56,20 +58,17 @@
             <ul class="filter-list">
               <li class="filter-item">
                 <label class="filter-label">
-                  <input class="filter-checkbox" type="checkbox" name="swimming pool" checked>
-                  Бассейн
+                  <input class="filter-checkbox" type="checkbox" name="swimming pool" checked>Бассейн
                 </label>
               </li>
               <li class="filter-item">
                 <label class="filter-label">
-                  <input class="filter-checkbox" type="checkbox" name="parking" checked>
-                  Парковка
+                  <input class="filter-checkbox" type="checkbox" name="parking" checked>Парковка
                 </label>
               </li>
               <li class="filter-item">
                 <label class="filter-label">
-                  <input class="filter-checkbox" type="checkbox" name="Wi-Fi">
-                  Wi-Fi
+                  <input class="filter-checkbox" type="checkbox" name="Wi-Fi">Wi-Fi
                 </label>
               </li>
             </ul>
@@ -84,14 +83,12 @@
               </li>
               <li class="filter-item">
                 <label class="filter-label">
-                  <input class="filter-radio" type="radio" name="housing" value="motel">
-              Мотель
+                  <input class="filter-radio" type="radio" name="housing" value="motel">Мотель
                 </label>
               </li>
               <li class="filter-item">
                 <label class="filter-label">
-                  <input class="filter-radio" type="radio" name="housing" value="apartment">
-              Апартаменты
+                  <input class="filter-radio" type="radio" name="housing" value="apartment">Апартаменты
                 </label>
               </li>
             </ul>
@@ -121,92 +118,72 @@
             <option value="expensive">Сначала дорогие</option>
           </select>
           <a class="button button-tile" href="#">
-            <span class="visually-hidden">Сортировать плиткой</span>
+            <span class="visually-hidden">Показать плиткой</span>
           </a>
           <a class="button button-table" href="#">
-            <span class="visually-hidden">Сортировать таблицей</span>
+            <span class="visually-hidden">Показать таблицей</span>
           </a>
           <a class="button button-list" href="#">
-            <span class="visually-hidden">Сортировать списком</span>
+            <span class="visually-hidden">Показать списком</span>
           </a>
         </header>
         <ul class="catalog-card-list">
             <li class="catalog-card-item">
               <a class="catalog-card-link" href="#">
-                <img class="catalog-card-image" src="#" alt="Каньон">
-                <h3 class="catalog-card-title">Amara serort & SPA</h3>
+                <img class="catalog-card-image" src="images/hotels/hotel-1.jpg" alt="Amara Resort Spa" width="300" height="212">
+                <h3 class="catalog-card-title">Amara serort SPA</h3>
               </a>
-            <span class="catalog-card-type">Гостиница</span>
-            <span class="catalog-card-price">От 4000 р</span>
-            <a class="catalog-btn-detail" href="#">подробнее</a>
-            <a class="catalog-btn-favorites" >в избранное</a>
+              <span class="catalog-card-type">Гостиница</span>
+              <span class="catalog-card-price">От 4000 р</span>
+              <a class="catalog-btn-detail" href="#">подробнее</a>
+              <a class="catalog-btn-favorites" >в избранное</a>
+              <p class="catalog-star-rating">
+                <span class="visually-hidden">4 звезды</span>
+              </p>
+              <p class="catalog-rating">Рейтинг: 8,5</p>
             </li>
-            <fieldset class="rating">
-              <legend class="rating-caption">Рейтинг:8,5</legend>
-              <div class="rating-group">
-                <input class="rating-star" type="radio" name="rating" value="1" checked>
-                <input class="rating-star" type="radio" name="rating" value="2" checked>
-                <input class="rating-star" type="radio" name="rating" value="3" checked>
-                <input class="rating-star" type="radio" name="rating" value="4" checked>
-              </div>
-            </fieldset>
-          <li class="catalog-card-list">
-            <a class="catalog-card-link" href="#">
-              <img class="catalog-card-image" src="#" alt="Долина">
-              <h3 class="catalog-card-title">Villas at Poco Diablo</h3>
-            </a>
-            <span class="catalog-card-type">Гостиница</span>
-            <span class="catalog-card-price">От 5000 р</span>
-            <a class="catalog-card-btn-detail" href="#">подробнее</a>
-            <a class="catalog-card-btn-favorites" >в избранном</a>
+            <li class="catalog-card-list">
+              <a class="catalog-card-link" href="#">
+                <img class="catalog-card-image" src="images/hotels/hotel-2.jpg" alt="Villas at Poco Diablo"  width="300" height="212">
+                <h3 class="catalog-card-title">Villas at Poco Diablo</h3>
+              </a>
+              <span class="catalog-card-type">Гостиница</span>
+              <span class="catalog-card-price">От 5000 р</span>
+              <a class="catalog-card-btn-detail" href="#">подробнее</a>
+              <a class="catalog-card-btn-favorites" >в избранном</a>
+              <p class="catalog-star-rating">
+                <span class="visually-hidden">4 звезды</span>
+              </p>
+              <p class="catalog-rating">Рейтинг: 9,2</p>
+            </li>
+            <li class="catalog-card-list">
+              <a class="catalog-card-link" href="#">
+                <img class="catalog-card-image" src="images/hotels/hotel-3.jpg" alt="Desert Quail Inn" width="300" height="212">
+                <h3 class="catalog-card-title">Desert Quail Inn</h3>
+              </a>
+              <span class="catalog-card-type">Гостиница</span>
+              <span class="catalog-card-price">От 2500 р</span>
+              <a class="catalog-card-btn-detail" href="#">подробнее</a>
+              <a class="catalog-card-btn-favorites" >в избранное</a>
+              <p class="catalog-star-rating">
+                <span class="visually-hidden">3 звезды</span>
+              </p>
+                <p class="catalog-rating">Рейтинг: 6,9</p>
           </li>
-          <fieldset class="rating">
-            <legend class="rating-caption">Рейтинг:9,2</legend>
-            <div class="rating-group">
-              <input class="rating-star" type="radio" name="rating" value="1" checked>
-              <input class="rating-star" type="radio" name="rating" value="2" checked>
-              <input class="rating-star" type="radio" name="rating" value="3" checked>
-              <input class="rating-star" type="radio" name="rating" value="4" checked>
-            </div>
-          </fieldset>
-          <li class="catalog-card-list">
-            <a class="catalog-card-link" href="#">
-              <img class="catalog-card-image" src="#" alt="Подножие">
-              <h3 class="catalog-card-title">Desert Quail Inn</h3>
-            </a>
-            <span class="catalog-card-type">Гостиница</span>
-            <span class="catalog-card-price">От 2500 р</span>
-            <a class="catalog-card-btn-detail" href="#">подробнее</a>
-            <a class="catalog-card-btn-favorites" >в избранное</a>
-          </li>
-          <fieldset class="rating">
-            <legend class="rating-caption">Рейтинг:6,9</legend>
-            <div class="rating-group">
-              <input class="rating-star" type="radio" name="rating" value="1" checked>
-              <input class="rating-star" type="radio" name="rating" value="2" checked>
-              <input class="rating-star" type="radio" name="rating" value="3" checked>
-              <input class="rating-star" type="radio" name="rating" value="4">
-              </div>
-          </fieldset>
-          <li class="product-card">
+          <li class="product-card-link">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="#" alt="Звездное плато">
+              <img class="product-card-image" src="images/hotels/hotel-4.jpg" alt="GreenTree Inn" width="300" height="212">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
             <span class="product-card-type">Гостиница</span>
             <span class="product-card-price">От 1500 р</span>
             <a class="catalog-card-btn-detail" href="#">подробнее</a>
             <a class="catalog-card-btn-favorites" >в избранное</a>
+            <p class="catalog-star-rating">
+              <span class="visually-hidden">2 звезды</span>
+            </p>
+              <p class="catalog-rating">Рейтинг: 5,0</p>
           </li>
-          <fieldset class="rating">
-            <legend class="rating-caption">Рейтинг:5,0</legend>
-            <div class="rating-group">
-              <input class="rating-star" type="radio" name="rating" value="1" checked>
-              <input class="rating-star" type="radio" name="rating" value="2" checked>
-              <input class="rating-star" type="radio" name="rating" value="3">
-              <input class="rating-star" type="radio" name="rating" value="4">
-            </div>
-          </fieldset>
         </ul>
         <ul class="pagination">
           <li class="pagination-item">
@@ -265,7 +242,7 @@
         <section class="footer-logo">
           <h2 class="visually-hidden">Логотип html academy</h2>
           <a class="footer-logo-link" href="htpps://htmlacademy.ru/">
-            <img class="logo-htmlacademy" src="#" alt="html academy">
+            <img class="logo-htmlacademy" src="images/logo-herotext/html-academy-logo.svg" alt="html academy" width="114.9" height="32.9" >
           </a>
         </section>
     </footer>
