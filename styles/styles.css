@@ -126,6 +126,11 @@ body {
   text-align: center;
   text-decoration-line: none;
   padding: 8px 34px;
+  display: block;
+  margin-left: 33px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .hero-wrapper {
@@ -146,7 +151,7 @@ body {
 .hero-title-class {
   width: 700px;
   margin: 0 auto;
-  padding: 69px 290px 90px 290px;
+  padding: 69px 250px 90px;
 }
 
 .hero-title {
@@ -241,7 +246,7 @@ body {
 
 .appointment {
   text-align: center;
-  width: 600px;
+  width: 1200px;
   margin: 0 auto;
   padding-top: 96px;
   padding-bottom: 104px;
@@ -258,7 +263,7 @@ body {
   padding-bottom: 62px;
   font-size: 22px;
   line-height: 26px;
-  width: 700px;
+
 }
 
 .button-search {
@@ -497,7 +502,7 @@ body {
 }
 
 .catalog-housing {
- padding: 50px 70px 60px 70px;
+ padding: 50px 65px 60px 65px;
 }
 
 .catalog-header {
@@ -539,11 +544,14 @@ body {
   box-sizing: border-box ;
   padding: 20px;
   border: 1px solid #E6E6E6;
+  display: grid;
+  grid-template-columns: repeat(2,140px);
+  gap: 16px 20px
 
 }
 
 .catalog-card-content {
-  padding: 20px;
+  gap:20px;
   display: grid;
   grid-template-columns: 140px 140px;
 
@@ -577,24 +585,32 @@ body {
 
 .catalog-card-btn-detail {
   width: 140px;
-  height: 36px;
   background-color: #756157;
   color: #ffffff;
   text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px 0px 8px;
 }
 
 .catalog-card-btn-favorites {
   width: 140px;
-  height: 36px;
   background-color: #82b3d3;
   color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px 0px 8px;
 }
 
 .card-btn-favorites {
   background-color: #7db54f;
   color:#fff;
   width: 140px;
-  height: 36px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px 0px 8px;
 }
 
 .catalog-rating {
@@ -602,6 +618,8 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding: 8px 0px 8px;
+  margin: 0;
 }
 
 .pagination-container {
@@ -615,8 +633,7 @@ body {
   margin-bottom: 60px;
 }
 
-.pagination-link,
-.pagination-space {
+.pagination-link {
   width: 60px;
   height: 60px;
   background-color: #82b3d3;
@@ -628,6 +645,22 @@ body {
   color: #f2f2f2;
   border-radius: 4px;
 }
+
+.pagination-space{
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+
+  margin: 0;
+  box-sizing: border-box;
+  margin-right: 8px;
+  padding: 11px 0;
+  text-decoration: none;
+  color: #000;
+  border-radius: 4px;
+
+}
+
 
 .pagination-current {
   background-color: #f2f2f2;
