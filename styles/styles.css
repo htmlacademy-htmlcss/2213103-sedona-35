@@ -24,12 +24,14 @@ body {
   line-height: 21px;
   background-color: #f2f2f2;
   color: #000000;
-  margin: 0;
+  margin: 0 auto;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   min-height: 100%;
   font-weight: 400;
   font-style: normal;
+
 }
 
 .page-container {
@@ -220,6 +222,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 62px;
+  padding: 0 29px;
 }
 
 .advantages-photo {
@@ -263,6 +266,7 @@ body {
   padding-bottom: 62px;
   font-size: 22px;
   line-height: 26px;
+  margin: 0;
 
 }
 
@@ -274,12 +278,35 @@ body {
   text-decoration: none;
   padding: 10px 50px;
   text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  border-radius: 4px;
 }
 
 .newsletter {
   text-align: center;
   color: #ffffff;
-  padding-top: 96px;
+  padding: 96px 0 104px;
+}
+
+.newsletter-title{
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-text {
+  margin: 0;
+  margin-bottom: 55px;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 .newsletter-background {
@@ -290,13 +317,6 @@ body {
   padding: 128px;
 }
 
-.newsletter-button {
-  color: #ffffff;
-  background-color: #82b3d3;
-  font-size: 20px;
-  line-height: 36px;
-  padding: 8px 50px;
-}
 
 .newsletter-form {
   display: flex;
@@ -309,6 +329,21 @@ body {
   line-height: 24px;
   width: 450px;
   padding: 15px 20px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;;
+}
+
+
+.newsletter-button {
+  color: #ffffff;
+  background-color: #82b3d3;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 8px 50px 9px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  cursor: pointer;
 }
 
 .page-footer {
@@ -517,6 +552,8 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  margin-right: 200px;
 }
 
 .select-control {
