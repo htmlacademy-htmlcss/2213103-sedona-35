@@ -64,55 +64,49 @@
               </ul>
             </header>
             <section class="filter">
-              <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <form class="filter-form" method="post" action="https://echo.htmlacademy.ru/" method="post">
                 <fieldset class="filter-group infrastructure">
                   <legend class="filter-title">Инфраструктура:</legend>
                   <ul class="filter-list">
                     <li class="filter-item">
-                      <label class="control" >
-                        <input class="control-input visually-hidden" type="checkbox" name="swimming-pool" checked>
-                        <span class="control-checkbox" tabindex="0"></span>
-                        <span class="control-label">Бассейн</span>
+                      <input class="control-checkbox visually-hidden" type="checkbox" name="swimming-pool" id="swimming-pool" checked>
+                      <label class="control-label" for="swimming-pool">
+                        <span class="control-text">Бассейн</span>
                       </label>
                     </li>
                     <li class="filter-item">
-                      <label class="control" >
-                        <input class="control-input visually-hidden" type="checkbox" name="parking" checked>
-                        <span class="control-checkbox" tabindex="0"></span>
-                        <span class="control-label">Парковка</span>
+                      <input class="control-checkbox visually-hidden" type="checkbox" name="parking" id="parking" checked>
+                      <label class="control-label" for="parking">
+                        <span class="control-text">Парковка</span>
                       </label>
                     </li>
                     <li class="filter-item">
-                      <label class="control">
-                        <input class="control-input visually-hidden" type="checkbox" name="wi-fi">
-                        <span class="control-checkbox" tabindex="0"></span>
-                        <span class="control-label">Wi-Fi</span>
+                      <input class="control-checkbox visually-hidden" type="checkbox" name="wifi" id="wifi">
+                      <label class="control-label" for="wifi">
+                        <span class="control-text">Wi-Fi</span>
                       </label>
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="filter-group type-housing">
+               <fieldset class="filter-group type-housing">
                   <legend class="filter-title">Тип жилья:</legend>
                   <ul class="filter-list">
                     <li class="filter-item">
-                      <label class="control">
-                        <input class="control-input visually-hidden" type="radio" name="housing" value="hotel" checked>
-                        <span class="control-radio"tabindex="0"></span>
-                        <span class="control-label">Гостиница</span>
+                      <input class="control-radio visually-hidden" type="radio" id="hotel" name="housing" value="hotel" checked>
+                      <label class="control-label" for="hotel">
+                        <span class="control-text">Гостиница</span>
                       </label>
                     </li>
                     <li class="filter-item">
-                      <label class="control">
-                        <input class="control-input visually-hidden" type="radio" name="housing" value="hotel" checked>
-                        <span class="control-radio" tabindex="0"></span>
-                        <span class="control-label">Мотель</span>
+                      <input class="control-radio visually-hidden" type="radio" id="motel" name="housing" value="motel" checked>
+                      <label class="control-label" for="motel">
+                        <span class="control-text">Мотель</span>
                       </label>
                     </li>
                     <li class="filter-item">
-                      <label class="control">
-                        <input class="control-input visually-hidden" type="radio" name="housing" value="hotel" checked>
-                        <span class="control-radio" tabindex="0"></span>
-                        <span class="control-label">Апартаменты</span>
+                      <input class="control-radio visually-hidden" type="radio" id="apartments" name="housing" value="apartments" checked>
+                      <label class="control-label" for="apartments">
+                        <span class="control-text">Апартаменты</span>
                       </label>
                     </li>
                   </ul>
