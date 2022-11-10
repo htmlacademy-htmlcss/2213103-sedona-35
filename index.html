@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8" >
+    <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="styles/styles.css" >
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <div class="page-container">
@@ -49,7 +50,7 @@
         <div class="hero-logo">
           <section class="hero">
             <div class="hero-wrapper">
-              <img class="hero-icon" src="images/logo-herotext/welcome-text.svg" alt="WELCOME to the gorgeous SEDONA 'Because the Grand Canyon sucks!" width="458" height="352"/>
+              <img class="hero-icon" src="images/logo-herotext/welcome-text.svg" alt="WELCOME to the gorgeous SEDONA.Because the Grand Canyon sucks!" width="458" height="352">
             </div>
             <div class="hero-title-class">
               <h2 class="hero-title">Седона-небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -97,19 +98,19 @@
             <li class="features-item grey ">
               <div class="features-container icon-house">
                 <h3 class="features-title">Жилье</h3>
-                <p class="features-description">Рекомендуем пожить в&nbspнастоящем мотеле, всё&nbspкак&nbspв кино!</p>
+                <p class="features-description">Рекомендуем пожить в&nbsp;настоящем мотеле, всё&nbsp;как&nbsp;в кино!</p>
               </div>
             </li>
             <li class="features-item white">
               <div class="features-container icon-burger">
                 <h3 class="features-title">Еда</h3>
-                <p class="features-description">Всегда заказывайте топовый&nbspфирменный бургер, вы не разочаруетесь!</p>
+                <p class="features-description">Всегда заказывайте топовый&nbsp;фирменный бургер, вы не разочаруетесь!</p>
               </div>
             </li>
             <li class="features-item grey">
               <div class="features-container icon-gift">
                 <h3 class="features-title">Сувениры</h3>
-                <p class="features-description"> Не только китайского, но&nbspи&nbspнастоящего местного производства!</p>
+                <p class="features-description"> Не только китайского, но&nbsp;и&nbsp;настоящего местного производства!</p>
               </div>
             </li>
           </ul>
@@ -209,7 +210,7 @@
             <p class="field-group field-passengers">
               <label class="field-people" for="adult">Взрослые:</label>
               <span class="field-group field-number">
-                <button class="button minus" type="button">
+                <button class="button minus" type="button" id="adult">
                   <span class="visually-hidden">Уменьшить количество</span>
                   <svg class="minus-icon" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14"  xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L0 2L14 2V0L0 0Z" fill="currentColor" ></path>
@@ -227,7 +228,7 @@
            <p class="field-group field-passengers-child">
               <label class="field-people" for="child">Дети:
                 <span class="tooltip" tabindex="0">
-                  <button class="tooltip-info" type="button" aria-labelledby="tooltip-label-date">
+                  <button class="tooltip-info" type="button" id="child">
                     <svg  class=tooltip-icon width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="13" cy="13" r="13" fill="#83b3d3"/>
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7H14V9H12V7ZM14 19H12V10H14V19Z" fill="currentColor"></path>
