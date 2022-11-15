@@ -181,7 +181,6 @@ body {
   fill: inherit;
 }
 
-
 .navigation-user-link:active svg {
   opacity: 0.3;
 }
@@ -403,12 +402,12 @@ body {
 .features-description {
   font-size: 18px;
   line-height: 21px;
-  color: #000;
+  color: #333333;
   font-weight: 400;
 }
 
 .grey {
-  background: rgba(131, 179, 211, 0.12);
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .white {
@@ -459,7 +458,6 @@ body {
   width: max-content;
   margin: 0 auto;
   display: block;
-
 }
 
 .button-search:hover,
@@ -641,7 +639,6 @@ body {
 
 .phone-number:focus-visible {
   color: #756157;
-  outline: none;
 }
 
 .phone-number:active {
@@ -662,7 +659,6 @@ body {
 .footer-logo-link:hover,
 .footer-logo-link:focus {
   color: #756157;
-  outline: none;
 }
 
 .footer-logo-link:active {
