@@ -115,8 +115,10 @@
                 <fieldset class="filter-group costs">
                   <legend class="filter-title">Стоимость, Р:</legend>
                   <div class="filter-costs">
-                      <input class="range-input-min min-price" type="number" name="min-price" id="cost-min"  value="0">
-                      <input class="range-input-max max-price" type="number"  name="max-price" id="cost-max" value="9000">
+                    <label class="cost-min visually-hidden" for="cost-min">от</label>
+                    <input class="range-input-min min-price" type="number" name="min-price" id="cost-min"  value="0">
+                    <label class="cost-max visually-hidden" for="cost-max">до</label>
+                    <input class="range-input-max max-price" type="number"  name="max-price" id="cost-max" value="9000">
                   </div>
                   <div class="range">
                     <div class="range-scale">
@@ -261,7 +263,8 @@
             </p>
           </div>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field" placeholder="Ваш e-mail" type="email" name="email" required>
+            <label class="visually-hidden" for="email">Ваш e-mail</label>
+            <input class="field" placeholder="Ваш e-mail" type="email" name="email" id="email" required>
             <input class="button newsletter-button" type="submit" value="Подписаться">
           </form>
         </section>
